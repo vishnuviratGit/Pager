@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import MessageList from "./MessageList";
-const Form = ({fetchMessages}) => {
+const Form1 = ({fetchMessages}) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const handleNameChange=(e)=> setName(e.target.value);
@@ -85,4 +85,4 @@ const Form = ({fetchMessages}) => {
   );
 };
 
-export default Form;
+export default Form1;

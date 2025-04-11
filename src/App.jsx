@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Form from './components/form'
+
+import Form1 from './components/Form1';
 import MessageList from './components/MessageList'
 import axios from "axios";
 import "./App.css"
@@ -22,7 +23,7 @@ const App = () => {
     
     <div className='container'>
          
-         <Form fetchMessages={fetchMessages}/>
+         <Form1 fetchMessages={fetchMessages}/>
          <MessageList messages={messages}/>
     </div>
   )
